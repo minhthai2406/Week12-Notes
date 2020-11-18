@@ -1,4 +1,4 @@
-#Week 12 Personal Notes
+# Week 12 Personal Notes
 
 - use touch to create file, touch README.md to make a blank readme file
 - use nano to open README.md file
