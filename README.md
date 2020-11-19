@@ -12,19 +12,20 @@
 
 ## How to push your project to GITHUB
 - git remote add origin "url here"
-- git branch
-- git push
+- git branch -M main
+- git push -u origin main
 - git commit -m "description of the changes"
 
 ## How to fix the error "Fatal: remote origin already edxists"
 - git remote set-url to fix remote origin already exists
 
 ## How to edit and update files from terminal to GITHUB
-- nano filename
-- git add filename
-- git commit filename
+- nano README.md
+- git add README.md
+- git commit -m "description of the changes"
 - git push
-- only need git push to update changes to github
+
+Only need git push to update changes to github
 
 ## How to paste URL in Terminal
 - you can paste url with right click
@@ -37,7 +38,7 @@
 - This will allowed Git to save your password in memory for some time.
 It's important to know that saving credential in Git will save your credential in a text file that is public to everyone to view, therefore setting a cache timeout to delete after a certain period of time is important.
 
-Set git  to use the credential memory cache
+Set Git to use the credential memory cache
 
 ``` git config --global credential.helper cache ```
 
