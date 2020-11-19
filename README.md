@@ -38,15 +38,15 @@
 It's important to know that saving credential in Git will save your credential in a text file that is public to everyone to view, therefore setting a cache timeout to delete after a certain period of time is important.
 
 Set git  to use the credential memory cache
-```
- git config --global credential.helper cache ```
+
+``` git config --global credential.helper cache ```
 
 By default, Git will cache your password for 15 minutes.
 You can also set it to 1 hour long by setting cache timeout to 3600.
 
 Set the cache to timeout after 1 hour (setting is in seconds)
-```
- git config --global credential.helper 'cache --timeout=3600' ```
+
+``` git config --global credential.helper 'cache --timeout=3600' ```
 
 ## Change log
 - Added credential memory cache
